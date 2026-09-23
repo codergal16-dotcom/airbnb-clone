@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up — Airbnb Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">
+      <span>airbnb</span>
+    </a>
+    <div class="search-bar">
+      <button class="search-item">Anywhere</button>
+      <span class="divider"></span>
+      <button class="search-item">Any week</button>
+      <span class="divider"></span>
+      <button class="search-item">Add guests</button>
+      <button class="search-icon">🔍</button>
+    </div>
+    <nav class="header-nav">
+      <a href="#" class="host-link">Airbnb your home</a>
+      <button class="globe-icon">🌐</button>
+      <a href="login.html" class="user-menu">☰ 👤</a>
+    </nav>
+  </header>
+
+  <main class="auth-page">
+    <div class="auth-card">
+      <h1>Sign up</h1>
+
+      <form>
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname" placeholder="Your full name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password" required>
+
+        <button type="submit" class="reserve-btn">Sign up</button>
+      </form>
+
+      <p class="auth-switch">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+  </main>
+
+</body>
+</html>
