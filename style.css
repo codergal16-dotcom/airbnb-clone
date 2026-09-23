@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo span {
+    color: #ff385c;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    padding: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .search-item {
+    border: none;
+    background: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 24px;
+    background-color: #ddd;
+  }
+  
+  .search-icon {
+    background-color: #ff385c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .host-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .user-menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .filter-bar {
+    display: flex;
+    gap: 12px;
+    padding: 16px 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .filter-pill {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background: white;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .listings-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 32px 40px;
+  }
+  
+  .listing-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .listing-top-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .listing-location {
+    font-weight: 500;
+  }
+  
+  .listing-dates,
+  .listing-price {
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  
+  .listing-price strong {
+    color: black;
+  }
